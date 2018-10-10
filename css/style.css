@@ -53,7 +53,7 @@ input[type=submit], input[type=button], button { -webkit-appearance: none; outli
 |                                     HEADER                                   |
 ================================================================================
 */
-header { background: url(../../img/header_img.png); background-size: cover; width: 100%; height: auto; text-align: left; font-size: 14px; font-family: Raleway-SemiBold; }
+header { background: url(img/header_img.png); background-size: cover; width: 100%; height: auto; text-align: left; font-size: 14px; font-family: Raleway-SemiBold; }
 
 header .container-wrap .blocks-header { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; height: auto; border-right: 1px solid #4c474c; }
 
