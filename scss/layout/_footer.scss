@@ -1,0 +1,92 @@
+@import '../utils/_mixins';
+@import '../utils/_variables';
+/*
+================================================================================
+|                                     FOOTER                                   |
+================================================================================
+*/
+footer{
+    //background:#000 url(../img/bg_footer.jpg) no-repeat left top;
+    //height:80px;
+    //text-align:left;
+    //width:100%;
+    //min-width: $min-width;
+    //order: 3;
+    //-webkit-order: 3;
+  width: 100%;
+  height: 260px;
+  background: $black;
+  .footer-blocs{
+    .footer__top{
+      width: 100%;
+      height: 175px;
+      display: flex;
+      padding-top: 90px;
+      justify-content: space-between;
+      border-bottom: 1px solid #393939;
+      .icons{
+        text-align: center;
+        .icon{
+          margin-right: 50px;
+          display: inline-block;
+          padding-top: 2%;
+          width: 30px;
+          height: 30px;
+          border: 1px solid white;
+          color: white;
+          &__item{
+            background: white;
+            color: $black;
+          }
+        }
+      }
+      .sub{
+        height: 40px;
+        width: 300px;
+        border-bottom: 1px solid white;
+        display: flex;
+        justify-content: space-between;
+        P{
+          color: white;
+          font-size: 16px;
+        }
+        .fa-arrow-right{
+          color: white;
+          font-size: 25px;
+        }
+      }
+    }
+    .footer__bottom{
+      color: #b3b8c2;
+      font-size: 16px;
+      text-align: center;
+      padding-top: 2%;
+      span{
+        color: white;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+
+
+@media screen and (max-width: 1200px) {
+	
+}
+
+@media screen and (min-width: 992px){
+	
+}
+
+@media screen and (max-width: 991px) {
+	
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+@media screen and (max-width: 767px) {
+	
+}
