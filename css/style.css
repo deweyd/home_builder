@@ -38,13 +38,13 @@ input[type=submit], input[type=button], button { -webkit-appearance: none; outli
 
 .clearfix:after, .wrapper:after, .row:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
 
-@font-face { font-family: 'Open Sans Regular'; src: url("../../fonts/OpenSans-Regular.ttf"); font-weight: 400; font-style: normal; font-stretch: normal; }
+@font-face { font-family: 'Open Sans Regular'; src: url("../fonts/OpenSans-Regular.ttf"); font-weight: 400; font-style: normal; font-stretch: normal; }
 
-@font-face { font-family: 'Open Sans Bold'; src: url("../../fonts/OpenSans-Bold.ttf"); font-weight: 700; font-style: normal; font-stretch: normal; }
+@font-face { font-family: 'Open Sans Bold'; src: url("../fonts/OpenSans-Bold.ttf"); font-weight: 700; font-style: normal; font-stretch: normal; }
 
-@font-face { font-family: 'Raleway-Bold'; src: url("../../fonts/Raleway/Raleway-Bold.ttf"); font-weight: 600; font-style: normal; font-stretch: normal; }
+@font-face { font-family: 'Raleway-Bold'; src: url("../fonts/Raleway/Raleway-Bold.ttf"); font-weight: 600; font-style: normal; font-stretch: normal; }
 
-@font-face { font-family: 'Raleway-SemiBold'; src: url("../../fonts/Raleway/Raleway-SemiBold.ttf"); font-weight: 600; font-style: normal; font-stretch: normal; }
+@font-face { font-family: 'Raleway-SemiBold'; src: url("../fonts/Raleway/Raleway-SemiBold.ttf"); font-weight: 600; font-style: normal; font-stretch: normal; }
 
 /* reset */
 /* main variables */
@@ -53,7 +53,7 @@ input[type=submit], input[type=button], button { -webkit-appearance: none; outli
 |                                     HEADER                                   |
 ================================================================================
 */
-header { background: url(../../img/header_img.png); background-size: cover; width: 100%; height: auto; text-align: left; font-size: 14px; font-family: Raleway-SemiBold; }
+header { background: url(../img/header_img.png); background-size: cover; width: 100%; height: auto; text-align: left; font-size: 14px; font-family: Raleway-SemiBold; }
 
 header .container-wrap .blocks-header { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; height: auto; border-right: 1px solid #4c474c; }
 
@@ -365,7 +365,7 @@ h3 { font-size: 28px; line-height: 32px; color: #000; font-family: "Raleway-Bold
 
 .project .blocks-project .wrap .project-item2 p { font-size: 18px; }
 
-.project .blocks-project .wrap .project-item2 .img { margin-top: 40px; background: url("../../img/sprite.png") -7px 0px; width: 80px; height: 80px; display: inline-block; }
+.project .blocks-project .wrap .project-item2 .img { margin-top: 40px; background: url("../img/sprite.png") -7px 0px; width: 80px; height: 80px; display: inline-block; }
 
 .project .blocks-project .wrap .project-item2 h3 { font-size: 50px; color: #e7e7e7; }
 
@@ -373,7 +373,7 @@ h3 { font-size: 28px; line-height: 32px; color: #000; font-family: "Raleway-Bold
 
 .project .blocks-project .wrap .project-item3 p { font-size: 18px; color: white; }
 
-.project .blocks-project .wrap .project-item3 .img { margin-top: 40px; background: url("../../img/sprite.png") -77px 0px; width: 80px; height: 80px; display: inline-block; }
+.project .blocks-project .wrap .project-item3 .img { margin-top: 40px; background: url("../img/sprite.png") -77px 0px; width: 80px; height: 80px; display: inline-block; }
 
 .project .blocks-project .wrap .project-item3 span { font-size: 14px; color: white; }
 
@@ -381,7 +381,7 @@ h3 { font-size: 28px; line-height: 32px; color: #000; font-family: "Raleway-Bold
 
 .project .blocks-project .wrap .project-item4 p { font-size: 18px; }
 
-.project .blocks-project .wrap .project-item4 .img { margin-top: 40px; background: url("../../img/sprite.png") -152px 0px; width: 80px; height: 80px; display: inline-block; }
+.project .blocks-project .wrap .project-item4 .img { margin-top: 40px; background: url("../img/sprite.png") -152px 0px; width: 80px; height: 80px; display: inline-block; }
 
 .project .blocks-project .wrap .project-item4 h3 { font-size: 50px; color: #e7e7e7; }
 
@@ -419,19 +419,19 @@ h3 { font-size: 28px; line-height: 32px; color: #000; font-family: "Raleway-Bold
 
 .exterior .exterior__blocks .exterior__back { width: 25%; height: 900px; padding: 50px; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: end; -webkit-justify-content: flex-end; -ms-flex-pack: end; justify-content: flex-end; }
 
-.exterior .exterior__blocks .exterior__back--item1 { background: url(../../img/ext1.png) round; height: 900px; position: relative; }
+.exterior .exterior__blocks .exterior__back--item1 { background: url(../img/ext1.png) round; height: 900px; position: relative; }
 
 .exterior .exterior__blocks .exterior__back--item1:before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(34, 34, 34, 0.7); }
 
-.exterior .exterior__blocks .exterior__back--item2 { background: url(../../img/exterior2.png) round; position: relative; height: 900px; }
+.exterior .exterior__blocks .exterior__back--item2 { background: url(../img/exterior2.png) round; position: relative; height: 900px; }
 
 .exterior .exterior__blocks .exterior__back--item2:before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(34, 34, 34, 0.7); }
 
-.exterior .exterior__blocks .exterior__back--item3 { background: url(../../img/ext2.png) round; height: 900px; position: relative; }
+.exterior .exterior__blocks .exterior__back--item3 { background: url(../img/ext2.png) round; height: 900px; position: relative; }
 
 .exterior .exterior__blocks .exterior__back--item3:before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(34, 34, 34, 0.7); }
 
-.exterior .exterior__blocks .exterior__back--item4 { background: url(../../img/ext3.png) round; height: 900px; position: relative; }
+.exterior .exterior__blocks .exterior__back--item4 { background: url(../img/ext3.png) round; height: 900px; position: relative; }
 
 .exterior .exterior__blocks .exterior__back--item4:before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(34, 34, 34, 0.7); }
 
@@ -445,7 +445,7 @@ h3 { font-size: 28px; line-height: 32px; color: #000; font-family: "Raleway-Bold
 
 .exterior .overlay .exterior__block .wrap { border-left: 1px solid #4c474c; white-space: nowrap; border-left: 1px solid #696b6e; height: 900px; }
 
-.interior { width: 100%; height: auto; background: url(../../img/interior.png) round; }
+.interior { width: 100%; height: auto; background: url(../img/interior.png) round; }
 
 .interior .interior__blocks { height: auto; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; border-right: 1px solid #dddee2; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; }
 
@@ -469,23 +469,23 @@ h3 { font-size: 28px; line-height: 32px; color: #000; font-family: "Raleway-Bold
 
 .interior .interior__blocks .wrap .interior__block--item1 p span { font-size: 30px; }
 
-.interior .interior__blocks .wrap .interior__block--item2 { background: url(../../img/interior1.png) no-repeat 100% 100%; background-size: cover; }
+.interior .interior__blocks .wrap .interior__block--item2 { background: url(../img/interior1.png) no-repeat 100% 100%; background-size: cover; }
 
-.interior .interior__blocks .wrap .interior__block--item3 { background: url(../../img/interior2.png) no-repeat 100% 100%; background-size: cover; }
+.interior .interior__blocks .wrap .interior__block--item3 { background: url(../img/interior2.png) no-repeat 100% 100%; background-size: cover; }
 
-.interior .interior__blocks .wrap .interior__block--item5 { background: url(../../img/interior3.png) no-repeat 100% 100%; background-size: cover; }
+.interior .interior__blocks .wrap .interior__block--item5 { background: url(../img/interior3.png) no-repeat 100% 100%; background-size: cover; }
 
-.interior .interior__blocks .wrap .interior__block--item6 { background: url(../../img/interior4.png) no-repeat 100% 100%; background-size: cover; }
+.interior .interior__blocks .wrap .interior__block--item6 { background: url(../img/interior4.png) no-repeat 100% 100%; background-size: cover; }
 
-.interior .interior__blocks .wrap .interior__block--item8 { background: url(../../img/interior5.png) no-repeat 100% 100%; background-size: cover; }
+.interior .interior__blocks .wrap .interior__block--item8 { background: url(../img/interior5.png) no-repeat 100% 100%; background-size: cover; }
 
-.interior .interior__blocks .wrap .interior__block--item9 { background: url(../../img/interior6.png) no-repeat 100% 100%; background-size: cover; }
+.interior .interior__blocks .wrap .interior__block--item9 { background: url(../img/interior6.png) no-repeat 100% 100%; background-size: cover; }
 
-.interior .interior__blocks .wrap .interior__block--item11 { background: url(../../img/interior7.png) no-repeat 100% 100%; background-size: cover; }
+.interior .interior__blocks .wrap .interior__block--item11 { background: url(../img/interior7.png) no-repeat 100% 100%; background-size: cover; }
 
-.interior .interior__blocks .wrap .interior__block--item12 { background: url(../../img/interior8.png) no-repeat 100% 100%; background-size: cover; }
+.interior .interior__blocks .wrap .interior__block--item12 { background: url(../img/interior8.png) no-repeat 100% 100%; background-size: cover; }
 
-.interior-kitchen { width: 100%; height: auto; background: url(../../img/inter-kitchen.png) round; }
+.interior-kitchen { width: 100%; height: auto; background: url(../img/inter-kitchen.png) round; }
 
 .interior-kitchen .interior-kitchen-blocks { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; height: 65vw; border-right: 1px solid #4b4546; position: relative; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; }
 
@@ -537,7 +537,7 @@ h3 { font-size: 28px; line-height: 32px; color: #000; font-family: "Raleway-Bold
 
 .interior-kitchen .interior-kitchen-blocks .wrap .interior__info h6 { font-size: 18px; text-transform: uppercase; line-height: 18px; }
 
-.interior-bathroom { width: 100%; height: 1145px; background: url(../../img/kitchen.png) round; overflow: hidden; }
+.interior-bathroom { width: 100%; height: 1145px; background: url(../img/kitchen.png) round; overflow: hidden; }
 
 .interior-bathroom input[type=radio] { display: none; }
 
@@ -581,7 +581,7 @@ h3 { font-size: 28px; line-height: 32px; color: #000; font-family: "Raleway-Bold
 
 .interior-bathroom .interior-bathroom-blocks .wrap .interior-bathroom-items label p { width: 99%; height: 100px; display: inline-block; background: white; color: #222222; text-transform: uppercase; cursor: pointer; font-weight: 500; margin-bottom: 8px; padding: 40px; text-align: right; box-shadow: -1px 42px 25px -10px #f2f1f1; font-size: 18px; }
 
-.additional { width: 100%; height: 900px; background: url(../../img/interiositem.png) round; }
+.additional { width: 100%; height: 900px; background: url(../img/interiositem.png) round; }
 
 .additional .additional-blocks { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; height: 900px; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; border-right: 1px solid #4b4546; }
 
@@ -635,7 +635,7 @@ h3 { font-size: 28px; line-height: 32px; color: #000; font-family: "Raleway-Bold
 
 .contact { width: 100%; height: 875px; overflow: hidden; }
 
-.contact .contact__block { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; height: 875px; border-right: 2px solid #dee0e3; background: url("../../img/contactimg.png") round; position: relative; }
+.contact .contact__block { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; height: 875px; border-right: 2px solid #dee0e3; background: url("../img/contactimg.png") round; position: relative; }
 
 .contact .contact__block .wrap { border-left: 1px solid #4c474c; white-space: nowrap; border-left: 1px solid #dee0e3; }
 
